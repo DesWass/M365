@@ -1,5 +1,5 @@
 $ApplicationId = '27ae0072-8bd0-4a12-aead-7e2a83ea5ae9'
-$ApplicationSecret = 'jte8Q~HodYn35H4lKi3P2pVrp3c3.SgIRHioLdov' | Convertto-SecureString -AsPlainText -Force
+$ApplicationSecret = '' | Convertto-SecureString -AsPlainText -Force
 $TenantID = 'b0b5dc70-6792-4ce8-8298-05a08d698d9d'
 $credential = New-Object System.Management.Automation.PSCredential($ApplicationId, $ApplicationSecret)
 $token = New-PartnerAccessToken -ApplicationId $ApplicationID -Scopes 'https://api.partnercenter.microsoft.com/user_impersonation' -ServicePrincipal -Credential $credential -Tenant $TenantID -UseAuthorizationCode
