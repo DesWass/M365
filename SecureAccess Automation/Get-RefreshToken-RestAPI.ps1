@@ -5,7 +5,7 @@ $appSecret = 'SECRET'
 =======
 $appSecret = 'jte8Q~HodYn35H4lKi3P2pVrp3c3.SgIRHioLdov'
 >>>>>>> 82a7a5a (Updates.)
-$tenantId = 'b0b5dc70-6792-4ce8-8298-05a08d698d9d'
+$tenantId = 'XXXX'
 $scope = 'https://api.partnercenter.microsoft.com/.default'
 $redirectUri = 'http://localhost:8400' # This should match the redirect URI registered in your app
 
